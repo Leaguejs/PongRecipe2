@@ -1,0 +1,37 @@
+<!-- view template -->
+<!-- called from your routes in server.js -->
+<!-- templating docs: http://mozilla.github.io/nunjucks/ -->
+
+<!DOCTYPE html>
+<html>
+  <audio id="wallBleep">
+    <source src="https://cdn.gomix.com/db8fe4d1-1d31-481f-b0c4-6131afecd983%2FwallBleep.wav" type="audio/wav">
+  </audio>
+  <audio id="failBleep">
+    <source src="https://cdn.gomix.com/db8fe4d1-1d31-481f-b0c4-6131afecd983%2FfailBleep.wav" tpe="audio/wav">
+  </audio>
+  <audio id="hitBleep">
+    <source src="https://cdn.gomix.com/db8fe4d1-1d31-481f-b0c4-6131afecd983%2FhitBleep.wav" tpe="audio/wav">
+  </audio>
+   <audio id="homer">
+    <source src="https://cdn.gomix.com/b27b0358-60a9-4fed-ab6c-144c9da67d14%2Fmoo.wav" tpe="audio/wav">
+  </audio>
+  <head>
+    <title>{{title}}</title>
+    <meta name="description" content="Pong Solo">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body bgcolor="#3E3E3E">
+    <canvas width="960" height="480">
+    </canvas>
+    <p>Make Your own pong :D.</p>
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="/client.js"></script>
+    <script src="/hidden.js"></script>
+  <footer id="gWidget"></footer>
+  <script src="https://widget.gomix.me/widget.min.js"></script>
+  </body>
+</html>
