@@ -1,0 +1,54 @@
+/* styles */
+/* called by your view template */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 25px;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 48px;
+  color: Gray;
+}
+
+h3 {
+  color: lightseagreen;
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  border: 1px solid #C3C3C3;
+  border-radius: 3px;
+  padding: 5px;
+  font-size: 16px;
+  max-width: 240px;
+  width: 100%;
+}
+
+.button {
+  display: block;
+  margin-top: 20px;
+}
+
+canvas {
+  border: 1px solid white;
+}
+p {
+ color: #D36C4B;
+ size: 50
+}
+footer {
+  margin-top: 50px;
+  padding-top: 25px;
+  border-top: 1px solid lightgrey;
+}
+
+footer > a {
+  color: #BBBBBB;
+}
